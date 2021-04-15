@@ -133,7 +133,7 @@ public class Main {
         int jariJari = 0; 
         
         try {
-            System.out.print(" -> Masukan jariJari lingkaran (cm) : ");
+            System.out.print(" -> Masukan jari-jari lingkaran (cm) : ");
             jariJari = userInput.nextInt();
         } catch (Exception e) {
             System.err.println("\n  (( inputan yang anda masukan bukan angka ))");
